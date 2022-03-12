@@ -7,6 +7,7 @@ C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET COR
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\bin\Debug\net5.0\LibraryManagementApp.dll
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\bin\Debug\net5.0\ref\LibraryManagementApp.dll
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\bin\Debug\net5.0\LibraryManagementApp.pdb
+C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\bin\Debug\net5.0\Bricelam.EntityFrameworkCore.Pluralizer.dll
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -48,6 +49,7 @@ C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET COR
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\obj\Debug\net5.0\LibraryManagementApp.csproj.CoreCompileInputs.cache
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\obj\Debug\net5.0\LibraryManagementApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\obj\Debug\net5.0\LibraryManagementApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\obj\Debug\net5.0\EFCorePluralizer.cs
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\obj\Debug\net5.0\staticwebassets\LibraryManagementApp.StaticWebAssets.Manifest.cache
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\obj\Debug\net5.0\staticwebassets\LibraryManagementApp.StaticWebAssets.xml
 C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\ASP.NET CORE Web Api\LibraryManagement\LibraryManagementApp\LibraryManagementApp\obj\Debug\net5.0\scopedcss\bundle\LibraryManagementApp.styles.css
