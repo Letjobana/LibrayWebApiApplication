@@ -16,6 +16,7 @@ namespace LibraryManagementApp.Repository.Concretes
         public Author Author(Author author)
         {
             var addAuthour = context.Authors.Add(author);
+            context.SaveChanges();
             return addAuthour.Entity;
         }
 
