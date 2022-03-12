@@ -14,7 +14,7 @@ namespace LibraryManagementApp.Repository.Concretes
         {
             this.context = context;
         }
-        public Publisher AddPublisher(Publisher publisher, Book book)
+        public Publisher AddPublisher(Publisher publisher, Book book, Sale sale)
         {
 
             var addNewPublisher = new Publisher
@@ -37,7 +37,15 @@ namespace LibraryManagementApp.Repository.Concretes
                 PublishedDate = book.PublishedDate,
                 Pub = book.Pub
             };
-
+            var addSale = new Sale
+            {
+                StoreId = sale.StoreId,
+                OrderNum = sale.OrderNum,
+                OrderDate = sale.OrderDate,
+                Quantity = sale.Quantity,
+                PayTerms = sale.PayTerms
+            };
+            book.Sales.Add(addSale);
             publisher.Books.Add(addBook);
             var newPlubisher = context.Publishers.Add(publisher);
             context.SaveChanges();
