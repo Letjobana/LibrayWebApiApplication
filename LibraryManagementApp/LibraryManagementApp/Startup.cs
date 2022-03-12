@@ -1,3 +1,5 @@
+using LibraryManagementApp.Repository.Abstracts;
+using LibraryManagementApp.Repository.Concretes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +24,7 @@ namespace LibraryManagementApp
 
             services.AddControllers();
             //services.AddDbContext<BookStoreDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BookStoreDB")));
+            services.AddScoped<IAuthourRepository, AuthorRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "LibraryManagementApp", Version = "v1" });
