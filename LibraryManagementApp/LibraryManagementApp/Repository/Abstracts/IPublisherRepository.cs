@@ -7,7 +7,7 @@ namespace LibraryManagementApp.Repository.Abstracts
     {
         IEnumerable<Publisher> GetAllPublishers();
         Publisher GetPublisherById(int Id);
-        Publisher AddPublisher(Publisher publisher);
+        Publisher AddPublisher(Publisher publisher, Book book);
         void DeletePublisher(int Id);
         void UpdatePublisher(Publisher publisher);
 

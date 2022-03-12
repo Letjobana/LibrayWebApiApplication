@@ -3,11 +3,13 @@ using LibraryManagementApp.Repository.Abstracts;
 using LibraryManagementApp.Repository.Concretes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
 
 namespace LibraryManagementApp
 {
@@ -25,6 +27,9 @@ namespace LibraryManagementApp
         {
 
             services.AddControllers();
+            services.AddMvc(options => options.EnableEndpointRouting = false).
+                SetCompatibilityVersion(CompatibilityVersion.Version_3_0).
+                AddNewtonsoftJson(opt => opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
             services.AddDbContext<BookStoreDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BookStoreDB")));
             services.AddScoped<IAuthourRepository, AuthorRepository>();
             services.AddScoped<IPublisherRepository, PublisherRepository>();
